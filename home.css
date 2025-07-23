@@ -1,0 +1,1263 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+    
+}
+
+
+.navbar
+{
+    height: 40px;
+    background-color: #B4245D;
+    color: white;
+    display: flex;
+}
+.dis{
+
+    font-size: 0.85rem;
+    display: inline-flex;
+    
+    
+}
+.dis1
+{
+    margin-left: 30px;
+    align-items: center;
+    display: flex;
+}
+.nav-search
+{
+    display: flex;
+    margin-left: 50px;
+    align-items: center;
+  
+    
+}
+.search-input
+{
+    width: 180px;
+    height: 25px;
+    align-items: center;
+    border-radius:4px ;
+    border-color: #FFFFFF;
+}
+.nav-select
+{
+    width: 20px;
+    height: 30px;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: none;
+}
+
+.review
+{
+   
+    margin-left: 500px;
+    display: flex;
+    font-size: 0.85rem;
+    align-items: center;
+}
+.review2
+{
+    margin-left: 3px;
+}
+.dow
+{
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.dow2
+{
+    margin-left: 3px;
+}
+
+
+
+/**panel**/
+.panel
+{
+    height: 80px;
+    
+    /* background-color: rgb(253, 40, 111); */
+    background-color:#E72E77;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+.panel-logo
+{
+    background-image: url(logo.png);
+    background-size: cover;
+    height: 80px;
+    width: 85px;
+    display: flex;
+    
+}
+.panel-ops
+{
+    width: 50%;
+    font-size: 0.85rem;
+    justify-content: space-evenly;
+  
+}
+.panel-ops p
+{
+    display: inline;
+    align-items: center;
+    justify-content: space-evenly;
+  
+}
+.p1
+{
+    margin-left:30px ;
+}
+.p2
+{
+    margin-left: 20px;
+}
+.p3
+{
+    margin-left: 20px;
+}
+.p4
+{
+    margin-left: 20px;
+}
+.p5
+{
+    margin-left: 20px;
+}
+.p6
+{
+    margin-left: 20px;
+}
+.search-icon
+{
+    
+    width: 30px;
+    align-items: center;
+    height: 30px;
+    background-color: #B4245D;
+    border-radius: 100px;
+    border-color: #B4245D;
+}
+.login
+{
+    
+    margin-left: 30px;
+    height: 30px;
+    width:60px;
+    background-color: #B4245D;
+    border-radius: 100px;
+    border-color: #B4245D;
+}
+
+
+.wedpic
+{
+    background-image: url(pic1.webp);
+    background-size: cover;
+    height: 600px;
+}
+.wedpic-msg
+{
+    
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wedpic-msg h1{
+    margin-top: 350px;
+}
+.wedpic-msg2
+{
+    
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wedpic-msg2 h2{
+    margin-top: 10px;
+}
+
+.select-type
+{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 300px;
+    align-items: center;
+}
+.type-input
+{
+    width: 200px;
+    height: 40px;
+    align-items: center;
+    border-radius:4px ;
+    border-color: #FFFFFF;
+}
+.type-select
+{
+    width: 100px;
+    height: 45px;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: none;
+}
+.city-input
+{
+    width: 200px;
+    height: 40px;
+    align-items: center;
+    border-radius:4px ;
+    border-color: #FFFFFF;
+}
+.city-select
+{
+    width: 100px;
+    height: 45px;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: none;
+}
+.button
+{
+    width: 100px;
+    height: 45px;
+    color: white;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: none;
+    background-color: #d4155f;
+}
+.diss
+{
+    font-size: 0.85rem;
+    margin-top: 4px;
+    margin-left:300px ;
+    color: white;
+    display: flex;
+}
+.head
+{
+    margin-top: 50px;
+    color: gray;
+    margin-left: 60px;
+}
+
+.p-venue
+{
+    margin-top: 5px;
+    display: flex;
+    margin-left: 60px;
+    justify-content: space-evenly;
+}
+.box
+{
+   border: 1px solid white;
+   height: 150px;
+   width: 30%; 
+   display: flex;
+   justify-content: space-evenly;
+   
+}
+
+.b1
+{
+    margin-top: 30px;
+    border: 1px solid white;
+   height: 100px;
+   width: 45%; 
+   border-radius: 5px;
+  
+}
+.box1-1
+{
+    background-image: url(hotels.webp);
+   background-size: cover;
+}
+.b2
+{
+    margin-top: 30px;
+    border: 1px solid white;
+   height: 100px;
+   width: 45%; 
+   border-radius: 5px;
+  
+}
+.box2-1
+{
+    background-image: url(halls.webp);
+   background-size: cover;
+}
+.b3
+{
+    margin-top: 30px;
+    border: 1px solid white;
+   height: 100px;
+   width: 45%; 
+   border-radius: 5px;
+  
+}
+.box3-1
+{
+    background-image: url(house.webp);
+   background-size: cover;
+}
+
+.box1-2 a
+{
+font-size: 0.75rem;
+color: #d4155f;
+}
+
+.box2-2 a
+{
+font-size: 0.75rem;
+color: #d4155f;
+}
+
+.box3-2 a
+{
+font-size: 0.75rem;
+color: #d4155f;
+}
+
+.head2
+{
+    margin-top: 50px;
+    color: gray;
+    margin-left: 60px;
+}
+
+.p-search
+{
+    margin-top: 15px;
+    display: flex;
+    margin-left: 60px;
+    justify-content: space-evenly;
+}
+.bb
+{
+    border: 1px solid white;
+   height: 400px;
+   width: 30%; 
+   align-items: center;
+   justify-content: space-evenly;
+   overflow: hidden;
+}
+.box4-1
+{
+    margin-top: 10px;
+    border: 1px solid white;
+   height: 300px;
+   width: 70%; 
+   border-radius: 5px;
+   margin-left: 20px;
+   margin-bottom: 5px;
+   background-image: url(bridal-1.webp);
+   background-size: cover;
+   
+   animation: zoomIn 3s ease-in-out forwards;
+  
+}
+@keyframes zoomIn {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2); /* zoom in */
+  }
+  100% {
+    transform: scale(1);   /* zoom out */
+  }
+}
+.box4-2
+{
+    margin-top: 10px;
+    border: 1px solid  white;
+   height: 15px;
+   width: 50%; 
+   border-radius: 5px;
+   margin-left: 20px;
+}
+
+.box5-1
+{
+    margin-top: 10px;
+    border: 1px solid  white;
+   height: 350px;
+   width: 80%; 
+   border-radius: 5px;
+   margin-left: 20px;
+   background-image:url(bridal-2.webp);
+   background-size: cover;
+   overflow: hidden;
+  
+}
+.box5-1:hover
+{
+    overflow: hidden;
+    transform:scale(1.2);
+}
+.box5-2
+{
+    margin-top: 10px;
+    border: 1px solid  white;
+   height: 15px;
+   width: 50%; 
+   border-radius: 5px;
+   margin-left: 20px;
+}
+
+.box6-1
+{
+    margin-top: 10px;
+    border: 1px solid  white;
+   height: 350px;
+   width: 80%; 
+   border-radius: 5px;
+   margin-left: 20px;
+   background-image: url(mehndi.webp);
+   background-size: cover;
+   overflow: hidden;
+  
+}
+.box6-1:hover
+{
+    overflow: hidden;
+    transform:scale(1.2);
+}
+.box6-2
+{
+    margin-top: 10px;
+    border: 1px solid  white;
+   height: 15px;
+   width: 50%; 
+   border-radius: 5px;
+   margin-left: 20px; 
+}
+
+.box7-1
+{
+    margin-top: 10px;
+    border: 1px solid  white;
+   height: 350px;
+   width: 80%; 
+   border-radius: 5px;
+   margin-left: 20px;
+   background-image:url(Invitation.webp) ;
+   background-size: cover;
+   overflow: hidden;
+  
+}
+.box7-1:hover
+{
+    overflow: hidden;
+    transform:scale(1.2);
+}
+
+.box7-2
+{
+    margin-top: 10px;
+   border: 1px solid white;
+   height: 15px;
+   width: 50%; 
+   border-radius: 5px;
+   margin-left: 20px; 
+}
+
+.head3
+{
+    margin-top: 50px;
+    color: gray;
+    margin-left: 60px;
+}
+
+
+.v-1
+{
+    margin-top: 15px;
+    display: flex;
+    margin-left: 1px;
+    justify-content: space-evenly;
+}
+.bb2
+{
+    border: 1px solid white;
+   height: 120px;
+   width: 550px; 
+   align-items: center;
+   justify-content: space-evenly;
+   
+   
+}
+.v-2
+{
+    margin-top: 15px;
+    display: flex;
+    margin-left: 1px;
+    justify-content: space-evenly;
+}
+.v-3
+{
+    margin-top: 15px;
+    display: flex;
+    margin-left: 1px;
+    justify-content: space-evenly;
+}
+
+.box8
+{
+    background-color:#D8DFFC ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+.box9
+{
+    background-color:#F4D5C2 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box10
+{
+    background-color:#DFB2AD ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box11
+{
+    background-color:#D8DFFC;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box12
+{
+    background-color:#F6B896 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box13
+{
+    background-color:#CFCDB8 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box8-1
+{
+    border: 1px solid#D8DFFC;
+   height: 80px;
+   width: 250px; 
+   font-size: 0.85rem;
+   margin-left: 30px;
+   margin-top: 30px;
+}
+.box8-2
+{
+    margin-left: 100px;
+    border: 1px solid #D8DFFC;
+    height: 120px;
+    width: 250px; 
+    /* border-radius:100px ; */
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+   
+}
+
+
+.box9-1
+{
+    border: 1px solid #F4D5C2;
+   height: 80px;
+   width: 200px; 
+   font-size: 0.85rem;
+   margin-left: 30px;
+   margin-top: 30px;
+}
+.box9-2
+{
+    margin-left: 100px;
+    border: 1px solid #F4D5C2;
+    height: 120px;
+    width: 250px;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+   
+}
+.box10-1
+{
+    border: 1px solid #DFB2AD;
+   height: 80px;
+   width: 200px; 
+   font-size: 0.85rem;
+   margin-left: 30px;
+   margin-top: 30px;
+   
+}
+.box10-2
+{
+    margin-left: 100px;
+    border: 1px solid #DFB2AD;
+    height: 120px;
+    width: 250px; 
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+   
+}
+.box11-1
+{
+    border: 1px solid #D8DFFc;
+   height: 80px;
+   width: 200px; 
+   font-size: 0.85rem;
+   margin-left: 30px;
+   margin-top: 30px;
+   
+}
+.box11-2
+{
+    margin-left: 100px;
+    border: 1px solid #D8DFFc;
+    height: 120px;
+    width: 250px; 
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+.box12-1
+{
+    border: 1px solid #F6B896;
+   height: 80px;
+   width: 200px; 
+   font-size: 0.85rem;
+   margin-left: 30px;
+   margin-top: 30px;
+   
+}
+.box12-2
+{
+    margin-left: 100px;
+    border: 1px ;
+    height: 120px;
+    width: 250px; 
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+   
+}
+.box13-1
+{
+    border: 1px solid #CFCDB8;
+   height: 80px;
+   width: 200px; 
+   font-size: 0.85rem;
+   margin-left: 30px;
+   margin-top: 30px;
+   
+   
+}
+.box13-2
+{
+    margin-left: 100px;
+    border: 1px solid #CFCDB8;
+    height: 120px;
+    width: 250px; 
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+   
+}
+
+.box8-2{
+    background-image: url(venues.webp);
+    background-size: cover;
+   
+    
+}
+.box9-2{
+    background-image: url(photographers.webp);
+    background-size: cover;
+}
+.box10-2{
+    background-image: url(makeup.webp);
+    background-size: cover;
+}
+.box11-2{
+    background-image: url(venues\ -1.webp);
+    background-size: cover;
+}
+.box12-2{
+    background-image: url(planning-decor.webp);
+    background-size: cover;
+}
+.box13-2{
+    background-image: url(bridal-wear.webp);
+    background-size: cover;
+}
+
+
+.head4
+{
+    margin-top: 100px;
+    color: gray;
+    margin-left: 60px;
+}
+
+.inhose
+{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 60px;
+    justify-content: space-evenly; 
+}
+.rel
+{
+    border: 1px solid white;
+    height: 400px;
+    width: 570px; 
+    font-size: 0.85rem;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+.brid
+{
+    border: 1px solid white;
+    height: 400px;
+    width: 570px; 
+    font-size: 0.85rem;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+.rel-pic
+{
+   
+    border: 1px solid white;
+    height: 200px;
+    width: 570px;
+    align-items: center;
+    background-image: url(wedsta.webp);
+    border-radius: 4px
+}
+.rel-pic:hover
+{
+    transform: scale(1.2);
+}
+
+.brid-pic
+{
+   
+    border: 1px solid white;
+    height: 200px;
+    width: 570px;
+    align-items: center;
+    background-image: url(genie.webp);
+    
+    border-radius: 4px;
+}
+.brid-pic:hover
+{
+    transform: scale(1.2);
+}
+.rel-dis
+{
+    margin-top: 30px;
+    border: 1px solid white;
+    height: 200px;
+    width: 570px;
+}
+.brid-dis
+{
+    margin-top: 30px;
+    border: 1px solid white;
+    height: 200px;
+    width: 570px;
+    align-items: center;
+}
+.w
+{
+    margin-inline: 250px;
+}
+.gs
+{
+    margin-inline: 150px;
+    margin-top: 20px;
+}
+.input-button
+{
+    margin-top: 30px;
+    height: 40px;
+    width: 100px;
+    margin-left: 250px;
+    color: #E72E77;
+    background-color:white;
+    border-color: #E72E77;
+}
+.input-button:hover
+{
+    background-color: #E72E77;
+    color: #FFFFFF;
+}
+
+.book
+{
+    border: 1px solid white;
+    height: 400px;
+    width: 570px; 
+    font-size: 0.85rem;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+
+.inhose2
+{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 60px;
+    
+}
+.book-pic
+{
+   
+  
+    border: 1px solid white;
+    height: 200px;
+    width: 570px;
+    align-items: center;
+    background-image: url(venue-2.webp);
+    
+    border-radius: 4px;
+}
+.book-pic:hover
+{
+    transform: scale(1.2);
+}
+.book-dis
+{
+    margin-top: 30px;
+    border: 1px solid white;
+    height: 200px;
+    width: 570px;
+    align-items: center;
+}
+
+.box14
+{
+    align-items: center;
+    border: 1px solid white;
+    height: 400px;
+     margin: 30px;
+    background-color: #FFEBE8;
+    display: flex;
+}
+
+.box14 h2{
+    margin-left:30px;
+   
+}
+.b14-pic
+{
+    border: 1px solid white;
+    height: 350px;
+    width: 170px;
+    align-items: center;
+    background-image: url(download_app.webp);
+    background-size: cover;
+    border-radius: 4px;
+    margin-left: 400px;
+}
+
+
+.head5
+{
+    margin-top: 100px;
+    color: gray;
+    margin-left: 60px;
+}
+
+.stories
+{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 60px;
+    justify-content: space-evenly; 
+    
+}
+
+.bb3
+{
+    margin-top: 30px;
+    border: 1px solid white;
+    height: 350px;
+    width: 400px;
+    align-items: center;
+    overflow: hidden;
+}
+.b15-pic
+{
+    border: 1px solid white;
+    height: 250px;
+    width: 400px;
+    align-items: center;
+    background-image: url(IMG_1.avif);
+    background-size: cover;
+    border-radius: 4px;
+}
+.b15-pic:hover
+{
+    transform: scale(1.2);
+}
+.b16-pic
+{
+    border: 1px solid white;
+    height: 250px;
+    width: 400px;
+    align-items: center;
+    background-image: url(img-2.avif);
+     border-radius: 4px;
+     background-size: cover;
+}
+.b16-pic:hover
+{
+    transform: scale(1.2);
+}
+.b17-pic
+{
+    border: 1px solid white;
+    height: 250px;
+    width: 400px;
+    align-items: center;
+    background-image: url(IMG_3.avif);
+     border-radius: 4px;
+     background-size: cover;
+}
+.b17-pic:hover
+{
+    transform: scale(1.2);
+}
+.b15-dis
+{
+    margin-top: 30px;
+    border: 1px solid white;
+    height: 200px;
+    width: 400px;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.b16-dis
+{
+    margin-top: 30px;
+    border: 1px solid white;
+    height: 200px;
+    width: 400px;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.b17-dis
+{
+    margin-top: 30px;
+    border: 1px solid white;
+    height: 200px;
+    width: 400px;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+
+.head6
+{
+    margin-top: 100px;
+    color: gray;
+    margin-left:3px;
+}
+
+.dis3
+{
+    align-items: center;
+    border: 1px solid white;
+    height: 400px;
+    margin-left:60px;
+    margin-top: 30px;
+    font-size: 0.85rem;
+    
+}
+.footer-panel
+{
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+ul a{
+display: block;
+color:black;
+font-size: 0.85rem;
+}
+
+.head7
+{
+    margin-top:60px;
+    color: gray;
+    margin-left:60px;
+}
+.look
+{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 60px;
+    justify-content: space-evenly;
+}
+
+.bb4
+{
+    border: 1px solid white;
+   height: 400px;
+   width: 30%; 
+   align-items: center;
+   justify-content: space-evenly;
+   overflow: hidden;
+}
+
+.b18-pic
+{
+    margin-top: 10px;
+    border: 1px solid white;
+   height: 320px;
+   width: 100%; 
+   border-radius: 5px;
+   margin-left: 20px;
+   background-image: url(pre-wedding.webp);
+   background-size: cover;
+   overflow: hidden;
+  
+}
+.b18-pic:hover
+{
+    overflow: hidden;
+    transform:scale(1.2);
+}
+.b18-dis
+{
+    margin-top: 30px;
+    border: 1px solid  white;
+   height: 15px;
+   width: 80%; 
+   border-radius: 5px;
+   margin-left: 20px;
+}
+.b19-pic
+{
+    margin-top: 10px;
+    border: 1px solid white;
+   height: 320px;
+   width: 100%; 
+   border-radius: 5px;
+   margin-left: 20px;
+   background-image: url(outfits.webp);
+   background-size: cover;
+   overflow: hidden;
+  
+}
+.b19-pic:hover
+{
+    overflow: hidden;
+    transform:scale(1.2);
+}
+.b19-dis
+{
+    margin-top: 30px;
+    border: 1px solid  white;
+   height: 15px;
+   width: 80%; 
+   border-radius: 5px;
+   margin-left: 20px;
+}
+.b20-pic
+{
+    margin-top: 10px;
+    border: 1px solid white;
+   height: 320px;
+   width: 100%; 
+   border-radius: 5px;
+   margin-left: 20px;
+   background-image: url(blouse-designs.webp);
+   background-size: cover;
+   overflow: hidden;
+  
+}
+.b20-pic:hover
+{
+    overflow: hidden;
+    transform:scale(1.2);
+}
+.b20-dis
+{
+    margin-top: 30px;
+    border: 1px solid  white;
+   height: 15px;
+   width: 80%; 
+   border-radius: 5px;
+   margin-left: 20px;
+}
+.b21-pic
+{
+    margin-top: 10px;
+    border: 1px solid white;
+   height: 320px;
+   width: 100%; 
+   border-radius: 5px;
+   margin-left: 20px;
+   background-image: url(hairstyles.webp);
+   background-size: cover;
+   overflow: hidden;
+  
+}
+.b21-pic:hover
+{
+    overflow: hidden;
+    transform:scale(1.2);
+}
+.b21-dis
+{
+    margin-top: 30px;
+    border: 1px solid  white;
+   height: 15px;
+   width: 80%; 
+   border-radius: 5px;
+   margin-left: 20px;
+}
+
+
+.b22-pic
+{
+    margin-top: 10px;
+    border: 1px solid white;
+   height: 320px;
+   width: 100%; 
+   border-radius: 5px;
+   margin-left: 20px;
+   background-image: url(jewellery.webp);
+   background-size: cover;
+   overflow: hidden;
+  
+}
+.b22-pic:hover
+{
+    overflow: hidden;
+    transform:scale(1.2);
+}
+.b22-dis
+{
+    margin-top: 30px;
+    border: 1px solid  white;
+   height: 15px;
+   width: 80%; 
+   border-radius: 5px;
+   margin-left: 20px;
+}
+
+
+.footer-panel2
+{
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+ul a{
+display: block;
+color:black;
+font-size: 0.85rem;
+margin-bottom: 65px;
+}
+.list
+{
+    display: flex;
+}
+
+.input-text{
+    height: 30px;
+    width: 150px;
+}
+.submit
+{
+    height: 35px;
+    width: 60px;
+    background-color: #E72E77;
+    color: white;
+}
+
+.button-2
+{
+    height: 35px;
+    width: 100px;
+    background-color: white;
+    border-color: #E72E77;
+    color: #E72E77;
+}
+.button-2:hover
+{
+    background-color: #E72E77;
+    color: white;
+}
+.button-3
+{
+    height: 35px;
+    width: 100px;
+    background-color: white;
+    border-color:#3498DB;
+    color: #3498DB;
+}
+.button-3:hover
+{
+    background-color:#3498DB;
+    color: white;
+}
+
+.app1
+{
+    height: 40px;
+    width: 150px;
+    background-image: url(download-app-1.png);
+    background-size: cover;
+}
+
+.app2
+{
+    height: 40px;
+    width: 150px;
+    background-image: url(download-play-1.png);
+    background-size: cover;
+}
